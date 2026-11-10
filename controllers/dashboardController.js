@@ -11,13 +11,15 @@ const readJson = (filePath, fallback) => {
 const getDashboardStats = (req, res) => {
     const requestLogs = readJson(path.join(__dirname, "../middleware/logs/requests.json"), [])
     const agentStats = readJson(path.join(__dirname, "../userAgent.json"), { userAgents: [], rateLimitBlocked: [] })
+    const users = readJson(path.join(__dirname, "../users.json"), [])
     const userAgents = Array.isArray(agentStats) ? agentStats : agentStats.userAgents
     const rateLimitBlocked = Array.isArray(agentStats) ? [] : agentStats.rateLimitBlocked || []
     const blockedCount = rateLimitBlocked.reduce((total, entry) => total + entry.count, 0)
 
     res.json({
         totalRequests: requestLogs.length,
-        totalUsers: readJson(path.join(__dirname, "../users.json"), []).length,
+        totalUsers: users.length,
+        users,
         rateLimitBlocked: blockedCount,
         userAgents,
         blockedByUserAgent: rateLimitBlocked,

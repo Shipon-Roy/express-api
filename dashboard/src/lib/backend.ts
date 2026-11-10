@@ -12,7 +12,10 @@ export async function backendRequest(
 
   const method = request?.method ?? "GET";
   const headers = new Headers();
-  headers.set("user-agent", "PocketSchoolDashboard/1.0");
+  const clientUserAgent = request?.headers.get("x-client-user-agent");
+  if (clientUserAgent && clientUserAgent.length <= 512) {
+    headers.set("user-agent", clientUserAgent);
+  }
   let body: string | undefined;
 
   if (request && method !== "GET" && method !== "HEAD") {

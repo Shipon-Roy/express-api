@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import type { FormEvent, ReactNode } from "react";
 
 type User = { id: number; name: string; age: number };
+type Theme = "light" | "dark";
 type UserAgentCount = { userAgent: string; count: number };
 type RequestLog = {
   timestamp: string;
@@ -15,6 +16,7 @@ type RequestLog = {
 type Analytics = {
   totalRequests: number;
   totalUsers: number;
+  users: User[];
   rateLimitBlocked: number;
   userAgents: UserAgentCount[];
   blockedByUserAgent: UserAgentCount[];
@@ -24,6 +26,9 @@ type Analytics = {
 async function fetchJson<T>(url: string, init?: RequestInit): Promise<T> {
   const headers = new Headers(init?.headers);
   headers.set("content-type", "application/json");
+  if (typeof navigator !== "undefined") {
+    headers.set("x-client-user-agent", navigator.userAgent);
+  }
   const response = await fetch(url, {
     ...init,
     headers,
@@ -42,9 +47,11 @@ async function fetchJson<T>(url: string, init?: RequestInit): Promise<T> {
 function Icon({
   name,
   size = 20,
+  className,
 }: {
   name: string;
   size?: number;
+  className?: string;
 }) {
   const common = {
     width: size,
@@ -56,6 +63,7 @@ function Icon({
     strokeLinecap: "round" as const,
     strokeLinejoin: "round" as const,
     "aria-hidden": true as const,
+    className,
   };
   const paths: Record<string, ReactNode> = {
     users: <><path d="M16 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="10" cy="7" r="4" /><path d="M20 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" /></>,
@@ -71,6 +79,8 @@ function Icon({
     arrow: <><path d="M7 17 17 7M7 7h10v10" /></>,
     clock: <><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></>,
     chevron: <><path d="m9 18 6-6-6-6" /></>,
+    sun: <><circle cx="12" cy="12" r="4" /><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" /></>,
+    moon: <><path d="M20.9 13A9 9 0 0 1 11 3.1 9 9 0 1 0 20.9 13Z" /></>,
   };
   return <svg {...common}>{paths[name] ?? paths.grid}</svg>;
 }
@@ -78,6 +88,7 @@ function Icon({
 const initialAnalytics: Analytics = {
   totalRequests: 0,
   totalUsers: 0,
+  users: [],
   rateLimitBlocked: 0,
   userAgents: [],
   blockedByUserAgent: [],
@@ -109,9 +120,11 @@ async function verifyAdminKey(key: string) {
 }
 
 export default function Home() {
+  const [theme, setTheme] = useState<Theme | null>(null);
   const [users, setUsers] = useState<User[]>([]);
   const [analytics, setAnalytics] = useState(initialAnalytics);
   const [loading, setLoading] = useState(true);
+  const [refreshing, setRefreshing] = useState(false);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState("");
   const [authError, setAuthError] = useState("");
@@ -123,15 +136,23 @@ export default function Home() {
   const [dialogOpen, setDialogOpen] = useState(false);
   const [editingUser, setEditingUser] = useState<User | null>(null);
 
+  useEffect(() => {
+    void Promise.resolve().then(() => {
+      const savedTheme = localStorage.getItem("pocketschool-theme");
+      const preferredTheme = savedTheme === "dark" || savedTheme === "light"
+        ? savedTheme
+        : window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.dataset.theme = preferredTheme;
+      setTheme(preferredTheme);
+    });
+  }, []);
+
   const loadDashboard = useCallback(async (key: string) => {
     setError("");
     try {
       const requestOptions = { headers: { "x-dashboard-key": key } };
-      const [userData, analyticsData] = await Promise.all([
-        fetchJson<User[]>("/api/users", requestOptions),
-        fetchJson<Analytics>("/api/analytics", requestOptions),
-      ]);
-      setUsers(userData);
+      const analyticsData = await fetchJson<Analytics>("/api/analytics", requestOptions);
+      setUsers(analyticsData.users);
       setAnalytics(analyticsData);
     } catch (reason) {
       setError(reason instanceof Error ? reason.message : "Could not load dashboard data.");
@@ -139,6 +160,19 @@ export default function Home() {
       setLoading(false);
     }
   }, []);
+
+  const refreshDashboard = async () => {
+    if (refreshing) return;
+    setRefreshing(true);
+    try {
+      await Promise.all([
+        loadDashboard(adminKey),
+        new Promise((resolve) => setTimeout(resolve, 700)),
+      ]);
+    } finally {
+      setRefreshing(false);
+    }
+  };
 
   useEffect(() => {
     let active = true;
@@ -190,6 +224,13 @@ export default function Home() {
     setAuthenticated(false);
     setUsers([]);
     setAnalytics(initialAnalytics);
+  };
+
+  const toggleTheme = () => {
+    const nextTheme = theme === "dark" ? "light" : "dark";
+    document.documentElement.dataset.theme = nextTheme;
+    localStorage.setItem("pocketschool-theme", nextTheme);
+    setTheme(nextTheme);
   };
 
   const filteredUsers = useMemo(() => {
@@ -265,6 +306,9 @@ export default function Home() {
   if (!authenticated) {
     return (
       <main className="login-page">
+        <button className="theme-toggle login-theme-toggle" type="button" onClick={toggleTheme} aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`} title={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}>
+          <Icon name={theme === "dark" ? "sun" : "moon"} size={17} />
+        </button>
         <section className="login-card">
           <a className="brand login-brand" href="#overview">
             <span className="brand-mark"><span /></span>
@@ -306,8 +350,8 @@ export default function Home() {
             <div className="help-icon"><Icon name="activity" size={18} /></div>
             <strong>Everything in sync</strong>
             <p>Your dashboard is connected to the Express API.</p>
-            <button type="button" onClick={() => void loadDashboard(adminKey)}>
-              Refresh data <Icon name="arrow" size={15} />
+            <button type="button" onClick={() => void refreshDashboard()} disabled={refreshing} aria-busy={refreshing}>
+              {refreshing ? "Refreshing..." : "Refresh data"} <Icon className={refreshing ? "spin-icon" : ""} name="refresh" size={15} />
             </button>
           </div>
           <div className="profile">
@@ -323,6 +367,9 @@ export default function Home() {
           <div className="breadcrumbs"><span>Workspace</span><Icon name="chevron" size={15} /><strong>Dashboard</strong></div>
           <div className="topbar-actions">
             <span className="live-status"><span /> Live data</span>
+            <button className="theme-toggle" type="button" onClick={toggleTheme} aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`} title={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}>
+              <Icon name={theme === "dark" ? "sun" : "moon"} size={17} />
+            </button>
             <button className="icon-button notification-button" type="button" aria-label="Notifications">
               <span className="notification-dot" /><Icon name="activity" size={19} />
             </button>
@@ -337,8 +384,8 @@ export default function Home() {
               <h1>Dashboard</h1>
               <p>Manage your users and keep track of API activity.</p>
             </div>
-            <button className="button button-secondary refresh-button" type="button" onClick={() => void loadDashboard(adminKey)}>
-              <Icon name="refresh" size={17} /> Refresh
+            <button className="button button-secondary refresh-button" type="button" onClick={() => void refreshDashboard()} disabled={refreshing} aria-busy={refreshing}>
+              <Icon className={refreshing ? "spin-icon" : ""} name="refresh" size={17} /> {refreshing ? "Refreshing..." : "Refresh"}
             </button>
           </section>
 
