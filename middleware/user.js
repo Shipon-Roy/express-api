@@ -1,8 +1,8 @@
 const saveUserAgent = require("../utils/user");
 
 const isValid = (req, res, next) => {
-    console.log(req.query.token); 
-    if (req.query.token === "123") {
+    const apiToken = process.env.API_TOKEN || "123"
+    if (req.query.token === apiToken) {
         next()
     }else{
         res.status(400).json({
@@ -31,12 +31,14 @@ const checkUserAgent = (req, res, next) => {
     const isBlocked = blockedPatterns.some((pattern) => pattern.test(userAgent))
 
     // user agen save to json file
-    saveUserAgent(userAgent)
+    if (userAgent) {
+        saveUserAgent(userAgent)
+    }
 
     // if (userAgent !== "PostmanRuntime/2.14.0") 
 
     if (!userAgent || isBlocked ) {
-        res.status(403).json({
+        return res.status(403).json({
             message: "Forbidden: Suspicious User-Agent!"
         })
     }

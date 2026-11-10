@@ -68,5 +68,1503 @@
       "accept-language": "",
       "content-type": ""
     }
+  },
+  {
+    "timestamp": "2026-11-10T17:38:04.395Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T17:40:06.194Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T17:42:00.494Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T17:42:12.890Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T17:42:19.919Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T17:42:29.859Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T17:53:42.378Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T17:53:43.784Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T17:53:44.799Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T17:57:30.618Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T17:57:33.577Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T17:57:34.551Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:00:10.225Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:00:12.188Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:00:38.919Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:00:42.489Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:19:41.938Z",
+    "method": "GET",
+    "url": "/",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "en-US,en;q=0.5",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:31:28.979Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:31:28.994Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:31:34.789Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:31:34.793Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:31:57.277Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:31:57.281Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:31:59.697Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:31:59.704Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:32:07.980Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:32:09.405Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:32:13.200Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:32:13.203Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:32:33.589Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:32:33.594Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:32:48.478Z",
+    "method": "POST",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": "application/json"
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:32:51.888Z",
+    "method": "POST",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": "application/json"
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:32:53.195Z",
+    "method": "POST",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": "application/json"
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:32:53.982Z",
+    "method": "POST",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": "application/json"
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:32:54.549Z",
+    "method": "POST",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": "application/json"
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:32:55.045Z",
+    "method": "POST",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": "application/json"
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:32:55.629Z",
+    "method": "POST",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": "application/json"
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:32:55.838Z",
+    "method": "POST",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": "application/json"
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:32:56.084Z",
+    "method": "POST",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": "application/json"
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:32:56.277Z",
+    "method": "POST",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": "application/json"
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:33:49.626Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:33:49.630Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:35:03.565Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "curl/8.21.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:35:49.263Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:35:49.376Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:36:07.267Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:36:07.272Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:38:28.736Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:38:28.783Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:39:02.650Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:39:02.657Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:39:03.522Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:39:03.554Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:39:04.019Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:39:04.035Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:39:04.304Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:39:04.309Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:39:09.319Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:39:10.888Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:39:11.818Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:39:12.015Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:39:15.752Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:39:15.756Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:09.279Z",
+    "method": "POST",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": "application/json"
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:09.342Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:09.348Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:17.989Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:17.994Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:19.563Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:19.569Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:19.738Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:19.743Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:19.932Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:19.936Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:22.188Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:22.206Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:22.602Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:22.607Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:24.718Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:24.722Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:24.905Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:24.908Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:25.137Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:25.141Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:39.400Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:39.404Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:39.808Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:39.813Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:40.405Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:40.426Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:40.759Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:40.779Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:45.987Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:45:45.997Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:46:50.002Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:46:50.005Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:46:51.686Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:46:51.689Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:46:51.870Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:46:51.873Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:46:52.046Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:46:52.063Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:47:09.629Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:47:10.044Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:47:15.450Z",
+    "method": "GET",
+    "url": "/api/admin/users?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-10T18:47:15.468Z",
+    "method": "GET",
+    "url": "/api/admin/analytics?token=123",
+    "ip": "::ffff:127.0.0.1",
+    "headers": {
+      "user-agent": "PocketSchoolDashboard/1.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "*",
+      "content-type": ""
+    }
   }
 ]

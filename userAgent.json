@@ -1,37 +1,26 @@
-[
-  "PostmanRuntime/2.15.0",
-  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
-  "PostmanRuntime/2.15.0",
-  "curl/8.21.0",
-  "curl/8.21.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0",
-  "PostmanRuntime/2.15.0"
-]
+{
+  "userAgents": [
+    {
+      "userAgent": "PocketSchoolDashboard/1.0",
+      "count": 81
+    },
+    {
+      "userAgent": "PostmanRuntime/2.15.0",
+      "count": 54
+    },
+    {
+      "userAgent": "curl/8.21.0",
+      "count": 3
+    },
+    {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "count": 2
+    }
+  ],
+  "rateLimitBlocked": [
+    {
+      "userAgent": "PostmanRuntime/2.15.0",
+      "count": 4
+    }
+  ]
+}
