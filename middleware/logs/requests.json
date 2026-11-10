@@ -1,0 +1,72 @@
+[
+  {
+    "timestamp": "2026-11-08T09:01:47.536Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-08T09:01:52.989Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-08T09:08:15.390Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-08T09:08:16.473Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  },
+  {
+    "timestamp": "2026-11-08T09:08:53.560Z",
+    "method": "GET",
+    "url": "/api/users?token=123",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/2.15.0",
+      "authorization": "",
+      "referer": "",
+      "origin": "",
+      "accept-language": "",
+      "content-type": ""
+    }
+  }
+]
